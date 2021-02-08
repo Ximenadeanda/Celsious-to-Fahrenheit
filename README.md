@@ -1,0 +1,32 @@
+# Celsious-to-Fahrenheit
+<!DOCTYPE html>
+<html>
+<title>Fahrenheit to Celcius Temperature Converter</title>
+<body>
+
+<h2>Temperature Converter</h2>
+
+<img src="C:\Users\Emilio Ramirez\Desktop\escuela\week19\primero\tempe.png" width="200" height="200"><BR>
+
+<p>Type a value in the Fahrenheit field to convert the value to Celsius:</p>
+
+<p>
+  <label>Fahrenheit</label>
+
+<input id="inputFahrenheit" type="text"><BR><BR>
+<button onclick="temperatureConverter(getElementById('inputFahrenheit').value)">Convert Fahrenheit to Celcius</button>
+  
+  
+
+</p>
+<p>Celcius: <span id="outputCelcius"></span></p>
+
+<script>
+function temperatureConverter(valNum) {
+
+  valNum = parseFloat(valNum);
+  document.getElementById("outputCelcius").Fahrenheit=(Celsious*1.8)+32
+}
+</script>
+
+</body>
